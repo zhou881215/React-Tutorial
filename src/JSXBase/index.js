@@ -70,7 +70,7 @@ const topList = [
   }
 ];
 
-function Element() {
+function JSXBase() {
   return (
     <div className="wrapper">
       <div className="search-title-box">
@@ -111,4 +111,4 @@ function Element() {
   );
 }
 
-export default Element;
+export default JSXBase;
