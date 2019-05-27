@@ -1,5 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
-import Element from "./JSXBase";
+import JSXBase from "./JSXBase";
 
-render(<Element />, document.getElementById("root"));
+const APP = [<JSXBase />];
+render(APP, document.getElementById("root"));
