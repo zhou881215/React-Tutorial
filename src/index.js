@@ -5,6 +5,7 @@ import JSXBase from "./JSXBase";
 import Elements from "./Elements";
 import Control from "./Control";
 import UnControl from "./UnControl";
+import { AttributeCheck as AttrCheck } from "./AttributeCheck";
 
 const APP = [
   <JSXBase />,
@@ -13,7 +14,9 @@ const APP = [
   <hr className="hr" />,
   <Control />,
   <hr className="hr" />,
-  <UnControl />
+  <UnControl />,
+  <hr className="hr" />,
+  <AttrCheck />
 ];
 // const APP = <div>Cram</div>;
 render(APP, document.getElementById("root"));
