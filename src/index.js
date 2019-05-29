@@ -6,6 +6,7 @@ import Elements from "./Elements";
 import Control from "./Control";
 import UnControl from "./UnControl";
 import { AttributeCheck as AttrCheck } from "./AttributeCheck";
+import AttributeTransfer from "./AttributeTransfer";
 
 const APP = [
   <JSXBase />,
@@ -16,7 +17,9 @@ const APP = [
   <hr className="hr" />,
   <UnControl />,
   <hr className="hr" />,
-  <AttrCheck />
+  <AttrCheck />,
+  <hr className="hr" />,
+  <AttributeTransfer />
 ];
-// const APP = <div>Cram</div>;
+
 render(APP, document.getElementById("root"));
