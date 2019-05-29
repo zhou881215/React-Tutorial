@@ -17,6 +17,9 @@ export default class ControlElem extends Component {
   handleAdd = e => {
     const name = e.target.name;
     let taskText = this.state[name];
+    if (!taskText) {
+      return;
+    }
     const { list } = this.state;
     if (name === "taskA") {
       taskText = `TaskA:${taskText}`;
@@ -33,10 +36,8 @@ export default class ControlElem extends Component {
     const { taskA, taskB, list } = this.state;
     return (
       <>
-        <br />
-        <hr />
-        <br />
-        <div>Control Element</div>
+        <div>受控与非受控一般都是表单元素</div>
+        <div>Control Element：受控组件，受状态控制的组件</div>
         <div>
           TaskA:
           <input
