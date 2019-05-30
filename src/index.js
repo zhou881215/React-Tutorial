@@ -7,6 +7,7 @@ import Control from "./Control";
 import UnControl from "./UnControl";
 import { AttributeCheck as AttrCheck } from "./AttributeCheck";
 import AttributeTransfer from "./AttributeTransfer";
+import OldLifeCycle from "./OldLifeCycle";
 
 const APP = [
   <JSXBase />,
@@ -19,7 +20,9 @@ const APP = [
   <hr className="hr" />,
   <AttrCheck />,
   <hr className="hr" />,
-  <AttributeTransfer />
+  <AttributeTransfer />,
+  <hr className="hr" />,
+  <OldLifeCycle />
 ];
 
 render(APP, document.getElementById("root"));
