@@ -37,36 +37,6 @@ const topList = [
     title: "郭麒麟初中早恋",
     new: false,
     hot: "25万"
-  },
-  {
-    id: 6,
-    title: "男孩滑雪遭遇雪崩",
-    new: true,
-    hot: "24万"
-  },
-  {
-    id: 7,
-    title: "大熊猫玩菜刀",
-    new: false,
-    hot: "24万"
-  },
-  {
-    id: 8,
-    title: "姿态宣布退役",
-    new: false,
-    hot: "22万"
-  },
-  {
-    id: 9,
-    title: "卫龙辣条吃出虫子",
-    new: false,
-    hot: "20万"
-  },
-  {
-    id: 10,
-    title: "女生被罚抱头蹲",
-    new: true,
-    hot: "20万"
   }
 ];
 
